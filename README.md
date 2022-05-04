@@ -5,7 +5,8 @@ This is a simple Front Desk App project using ASP.NET Core and Rest API microser
 1. User can create Customer and Facility information.
 2. A customer can store small, medium and large boxes in a facility. You can only store box to their designated box type.
 3. FrontDeskApp user can check if there are available for specific box sizes.
-4. User can retrieve package for customers.
+4. If there no available space in the facility, user cannot store a package.
+5. User can retrieve package for customers.
 
 The can download the backend process here:
 https://github.com/chamitopepito22/codingTestRestAPI
